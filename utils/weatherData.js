@@ -7,7 +7,7 @@ const openWeatherMap = {
 
 const weatherData = (address, callback) => {
     const url = openWeatherMap.BASE_URL + encodeURIComponent(address) + "&APPID=" + openWeatherMap.SECRET_KEY;
-    console.log(url);
+    // console.log(url);
     request({ url, json: true }, (error, { body, statusCode }) => {
         if (error) {
             callback(true, "Can't connect to the weather service: " + error);

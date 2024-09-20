@@ -62,7 +62,7 @@ h1 {
     max-width: 800px;
     margin: 20px auto;
     padding: 20px;
-    background: rgba(255, 255, 255, 0.9); /* Semi-transparent background */
+    background: rgba(240, 189, 126, 0.9); /* Semi-transparent background */
     border-radius: 10px;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
     animation: fadeIn 2s ease-out;
@@ -93,7 +93,9 @@ h1 {
     max-width: 100px;
     height: auto;
     margin: 10px auto;
+    filter: drop-shadow(0 5px 15px rgba(48, 84, 247, 0.2));
     animation: pulse 1.5s infinite ease-in-out;
+
 }
 
 /* Pulse animation for weather icon */

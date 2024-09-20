@@ -6,13 +6,13 @@ document.addEventListener('DOMContentLoaded', async () => {
     const defaultCityOption = document.createElement('option');
     defaultCityOption.value = '';
     defaultCityOption.textContent = 'Select City';
-    citySelect.appendChild(defaultCityOption);
+    // citySelect.appendChild(defaultCityOption);
 
     // Create and append default option for country select
     const defaultCountryOption = document.createElement('option');
     defaultCountryOption.value = '';
     defaultCountryOption.textContent = 'Select Country';
-    countrySelect.appendChild(defaultCountryOption);
+    // countrySelect.appendChild(defaultCountryOption);
 
 
 

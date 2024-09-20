@@ -35,7 +35,7 @@ body {
 
 /* Section for country and city selection */
 #select-section {
-    margin-top: 40px;
+    margin: 20px;
     color: #28a745;
     font-size: 20px;
     font-weight: bold;
@@ -86,13 +86,13 @@ li:hover {
 #country-select, #city-select {
     width: 100%; 
     max-width: 40%;
-    padding: 12px;
+    padding: 5px;
     border-radius: 5px;
     border: 1px solid #ced4da;
     margin-top: 20px;
     font-size: 16px;
     color: #495057;
-    background-color: #fff;
+    background-color: #fee7e7;
     transition: background-color 0.3s ease, box-shadow 0.3s ease;
 }
 
@@ -127,6 +127,7 @@ li:hover {
     background-color: #28a745;
     color: #fff;
 }
+
 /* Responsive Design */
 @media (max-width: 768px) {
     #country-select, #city-select {

@@ -52,7 +52,7 @@ async function getCityOfCountry(country_id){
 }
 
 app.get("/", (req, res) => {
-    res.render("index", {title: "Weather App + link: " + uri});
+    res.render("index", {title: "Weather App"});
 })
 
 app.get("/api/country", async (req, res) => {
