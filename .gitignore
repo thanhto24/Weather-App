@@ -1,3 +1,6 @@
+.env
+src/Cities.csv
+
 # Logs
 logs
 *.log
