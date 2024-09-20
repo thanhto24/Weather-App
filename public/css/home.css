@@ -1,0 +1,148 @@
+/* General Page Styling */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #b7d2ed;
+    color: #212529;
+    text-align: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+
+#app-container {
+    max-width: 900px;
+    width: 100%;
+    margin: 40px;
+    padding: 40px;
+    background-color: #fff;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+#main-title {
+    font-size: 48px;
+    color: #343a40;
+    padding: 30px 0;
+    background-color: #2a3030;
+    color: #e9ecef;
+    width: 100%;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Section for country and city selection */
+#select-section {
+    margin-top: 40px;
+    color: #28a745;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 20px;
+}
+
+/* List Styling */
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 20px;
+}
+
+li {
+    background-color: #f8f9fa;
+    padding: 15px;
+    margin: 10px 0;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+li:hover {
+    background-color: #e9ecef;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Button Styling */
+#get-weather-btn {
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    padding: 12px 25px;
+    cursor: pointer;
+    font-size: 18px;
+    margin-top: 30px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+#get-weather-btn:hover {
+    background-color: #218838;
+    transform: scale(1.05);
+}
+
+/* Select Dropdown Styling */
+#country-select, #city-select {
+    width: 100%; 
+    max-width: 40%;
+    padding: 12px;
+    border-radius: 5px;
+    border: 1px solid #ced4da;
+    margin-top: 20px;
+    font-size: 16px;
+    color: #495057;
+    background-color: #fff;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Hover effect on the select box */
+#country-select:hover, #city-select:hover {
+    cursor: pointer;
+    background-color: #e9ecef;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Focus effect on the select box */
+#country-select:focus, #city-select:focus {
+    outline: none;
+    border-color: #28a745;
+    box-shadow: 0 0 5px rgba(40, 167, 69, 0.5);
+}
+
+.country-option-wrapper {
+    display: flex;
+    justify-content: left;
+}
+
+/* Option Styling */
+#country-select option, #city-select option {
+    padding: 10px;
+    color: #364034;
+    background-color: #fff;
+}
+
+/* Hover-like effect for the option when selected */
+#country-select option:checked, #city-select option:checked {
+    background-color: #28a745;
+    color: #fff;
+}
+/* Responsive Design */
+@media (max-width: 768px) {
+    #country-select, #city-select {
+        max-width: 100%;
+    }
+
+    #app-container {
+        padding: 20px;
+    }
+
+    #main-title {
+        font-size: 36px;
+    }
+
+    #select-button {
+        font-size: 16px;
+        padding: 10px 20px;
+    }
+}

@@ -1,0 +1,62 @@
+/* style.css */
+
+/* Basic styling for the body */
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to bottom, #e0f7fa, #ffffff); /* Gradient background */
+    margin: 0;
+    padding: 0;
+    color: #333;
+    height: 100vh; /* Full viewport height */
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Center content vertically */
+}
+
+/* Styling for the main heading */
+h1 {
+    margin: 20px;
+    text-align: center;
+    color: #e78a8a; /* Green color for the heading */
+    padding: 20px;
+    font-size: 5em;
+    background-color: #190835; /* White background for the heading */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    transition: transform 0.3s ease; /* Smooth hover effect */
+}
+
+/* Add a hover effect to the heading */
+h1:hover {
+    transform: scale(1.01); /* Scale up on hover */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Slightly larger shadow */
+}
+
+/* Styling for paragraphs */
+p {
+    text-align: center;
+    font-style: italic;
+    font-size: 1.5em;
+    color: #555; /* Slightly lighter text color */
+    margin: 20px;
+    transition: color 0.3s ease; /* Smooth color transition */
+}
+
+/* Add a container for better layout */
+.container {
+    max-width: 800px; /* Limit container width */
+    margin: 0 auto; /* Center container */
+    padding: 20px; /* Add padding */
+    background: #ffffff; /* White background for the container */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Shadow for depth */
+}
+
+a{
+    text-decoration: none;
+    color: #e78a8a;
+    width: 20%;
+    text-align: left;
+    margin-left: 20px;
+    font-size: 1.2em;
+}
