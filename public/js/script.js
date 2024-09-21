@@ -5,16 +5,8 @@ document.addEventListener('DOMContentLoaded', async () => {
     // Create and append default option for city select
     const defaultCityOption = document.createElement('option');
     defaultCityOption.value = '';
-    defaultCityOption.textContent = 'Select City';
+    defaultCityOption.textContent = 'Select a city';
     // citySelect.appendChild(defaultCityOption);
-
-    // Create and append default option for country select
-    const defaultCountryOption = document.createElement('option');
-    defaultCountryOption.value = '';
-    defaultCountryOption.textContent = 'Select Country';
-    // countrySelect.appendChild(defaultCountryOption);
-
-
 
     try {
         // Fetch the country data from the API
